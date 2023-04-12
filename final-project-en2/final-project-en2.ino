@@ -31,7 +31,7 @@ int dothalf = tempo * (10/9);
 
 void setup() {
 for (int i = 0; i < 5; i++){
-  tone(output, E2);
+  tone(output, E2)
   
 }
 }
