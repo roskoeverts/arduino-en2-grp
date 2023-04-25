@@ -1300,7 +1300,6 @@ tone(output, C5);
   noTone(output);
   delay(quarterrest);
 
-
   tone(output, G4);
   delay(eighth);
   noTone(output);
