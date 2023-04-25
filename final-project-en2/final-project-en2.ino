@@ -202,7 +202,7 @@ void setup() {
   delay(space);
 
   chorus ();
-tone(output, E5);
+  tone(output, E5);
   delay(quarter);
   noTone(output);
   delay(space);
