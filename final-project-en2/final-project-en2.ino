@@ -58,6 +58,19 @@
 #define D8  4699
 #define REST 0
 
+void lightcofig(){
+  pinMode (0, OUTPUT);
+  pinMode (1, OUTPUT);
+  pinMode (2, OUTPUT);
+  pinMode (3, OUTPUT);
+  pinMode (4, OUTPUT);
+  pinMode (5, OUTPUT);
+  pinMode (6, OUTPUT);
+  pinMode (7, OUTPUT);
+  pinMode (8, OUTPUT);
+  pinMode (9, OUTPUT);
+}
+
 int output = 13;
 
 int tempo = 175;
@@ -192,6 +205,8 @@ void chorus() {
 }
 
 void setup() {
+  digitalWrite (2,HIGH);
+  delay (1);
 
   noTone(output);
   delay(eighthrest);
@@ -202,6 +217,12 @@ void setup() {
   delay(space);
 
   chorus ();
+
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+
   tone(output, E5);
   delay(quarter);
   noTone(output);
@@ -334,7 +355,12 @@ void setup() {
 
   chorus();
 
-noTone(output);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  noTone(output);
   delay(halfrest);
 
   noTone(output);
@@ -465,7 +491,12 @@ noTone(output);
   noTone(output);
   delay(space);
 
-tone(output, E5);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+
+  tone(output, E5);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -612,7 +643,12 @@ tone(output, E5);
   noTone(output);
   delay(space);
 
-tone(output, D5);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, D5);
   delay(eighth);
   noTone(output);
   delay(space);
@@ -758,7 +794,12 @@ tone(output, D5);
   noTone(output);
   delay(space);
 
-tone(output, F5);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, F5);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -855,6 +896,10 @@ tone(output, F5);
 
   chorus();
 
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
   tone(output, E5);
   delay(quarter);
   noTone(output);
@@ -905,7 +950,12 @@ tone(output, F5);
   noTone(output);
   delay(space);
 
-tone(output, A6);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, A6);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -1043,7 +1093,12 @@ tone(output, A6);
   noTone(output);
   delay(space);
 
-tone(output, C5);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, C5);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -1169,7 +1224,13 @@ tone(output, C5);
   noTone(output);
   delay(space);
 
-tone(output, C5);
+  digitalWrite (2,LOW);
+  delay (1);
+
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, C5);
   delay(half);
   noTone(output);
   delay(space);
@@ -1300,6 +1361,7 @@ tone(output, C5);
   noTone(output);
   delay(quarterrest);
 
+
   tone(output, G4);
   delay(eighth);
   noTone(output);
@@ -1325,7 +1387,12 @@ tone(output, C5);
   noTone(output);
   delay(space);
 
-tone(output, D5);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, D5);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -1487,7 +1554,12 @@ tone(output, D5);
   noTone(output);
   delay(space);
 
-tone(output, D5);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, D5);
   delay(eighth);
   noTone(output);
   delay(space);
@@ -1573,7 +1645,12 @@ tone(output, D5);
 
   chorus();
 
-tone(output, E5);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, E5);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -1653,7 +1730,12 @@ tone(output, E5);
   noTone(output);
   delay(space);
 
-tone(output, D5);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, D5);
   delay(eighth);
   noTone(output);
   delay(space);
@@ -1792,7 +1874,12 @@ tone(output, D5);
   noTone(output);
   delay(space);
 
-tone(output, G5);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, G5);
   delay(eighth);
   noTone(output);
   delay(space);
@@ -1923,7 +2010,12 @@ tone(output, G5);
   noTone(output);
   delay(space);
 
-tone(output, G4);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, G4);
   delay(half);
   noTone(output);
   delay(space);
@@ -2052,7 +2144,12 @@ tone(output, G4);
   noTone(output);
   delay(space);
 
-tone(output, A6);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, A6);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -2163,7 +2260,12 @@ tone(output, A6);
   noTone(output);
   delay(space);
 
-tone(output, E5);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  tone(output, E5);
   delay(quarter);
   noTone(output);
   delay(space);
@@ -2318,7 +2420,12 @@ tone(output, E5);
   noTone(output);
   delay(space);
 
-tone(output, E5);
+  digitalWrite (3,LOW);
+  delay (1);
+digitalWrite (2,HIGH);
+  delay (1);
+  
+  tone(output, E5);
   delay(eighth);
   noTone(output);
   delay(space);
@@ -2450,7 +2557,12 @@ tone(output, E5);
   noTone(output);
   delay(space);
 
-noTone(output);
+  digitalWrite (2,LOW);
+  delay (1);
+digitalWrite (3,HIGH);
+  delay (1);
+  
+  noTone(output);
   delay(quarterrest);
   
   tone(output, A6);
@@ -2510,4 +2622,10 @@ noTone(output);
 
   noTone(output);
   delay(halfrest);
+
+  digitalWrite (3,LOW);
+  delay (1);
+}
+
+void loop(){
 }
