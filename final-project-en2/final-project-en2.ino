@@ -1922,3 +1922,592 @@ tone(output, G5);
   delay(quarter);
   noTone(output);
   delay(space);
+
+tone(output, G4);
+  delay(half);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(eighthrest);
+
+  tone(output, G4);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(dothalf);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(eighthrest);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(whole);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(quarterrest);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, F5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(dothalf);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(wholerest);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A5);
+  delay(whole);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(halfrestdot);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(dotquarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, C6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, B6);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+tone(output, E5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(eighth);
+  noTone(output);
+  delay(space);
+
+  tone(output, A5);
+  delay(half);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(quarterrest);
+
+  tone(output, F5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(quarterrest);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(quarterrest);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(quarterrest);
+
+  tone(output, F5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(half);
+  noTone(output);
+  delay(space);
+
+  tone(output, F5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+noTone(output);
+  delay(quarterrest);
+  
+  tone(output, A6);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, G5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, F5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(half);
+  noTone(output);
+  delay(space);
+
+  tone(output, F5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, E5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, D5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(quarter);
+  noTone(output);
+  delay(space);
+
+  tone(output, C5);
+  delay(half);
+  noTone(output);
+  delay(space);
+
+  noTone(output);
+  delay(halfrest);
+}
